@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   background-color: rgb(244, 244, 244);  
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    font-size: 28px;
+    margin-top: -199px;
+    margin-left: 10px;
+}
+.logo{
+    margin-top: 50px;    
+    margin-bottom: -45px;
+}
+.logo img{
+    max-height: 106px;
+    margin-left: -28px;
+}
+.texto{
+    max-width: 400px;
+    max-height: auto;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.div2{
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    top: 170px;
+    left: 762px;
+    padding: 25px;
+    margin-left: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 6px rgba(140, 139, 139, 0.678);
+}
+.elform{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.elform input{
+    padding: 14px;
+    border: 1px solid  rgba(216, 214, 214, 0.705);
+    outline: none;
+    margin-bottom: 13px;
+    border-radius: 5px;
+}
+.elform input:focus{
+    outline: none !important;
+    border: 1px solid  rgba(44, 113, 251, 0.936);
+    box-shadow: 0px 0px 5px 1px rgba(64, 113, 212, 0.39);
+}
+#entrar{
+    cursor: pointer;
+    padding: 13px;
+    border: 1px solid  rgba(216, 214, 214, 0.705);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(47, 118, 240, 0.996) ;
+    color: white;
+    border-radius: 8px;
+}
+#entrar:hover{
+    background-color: rgba(44, 107, 216, 0.996) ;
+}
+.texto2{
+    margin-top: 18px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(47, 118, 240, 0.996) ; ;
+}
+.texto2:hover{
+    text-decoration:underline;
+}
+.divlinea{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cbcdcf; 
+    margin: 20px 16px;
+    text-align: center;
+}
+.elboton {
+	background-color:#3fbc31;
+	border-radius:8px;
+	border:1px solid #18ab29;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:13px 12px;
+	text-decoration:none;
+    text-align: center;
+    width: 178px;
+    margin: auto;
+}
+.elboton:hover{
+    background-color:#359a2a;
+}
+.textito{
+    width: 350px;
+    margin-top: 55px;
+    font-size: 13px;
+   margin-left: -13px;
+   text-align: center;
+}
+.textito span{
+    font-weight: bold;
+}
+@media (max-width:891px){
+    .container{
+      flex-direction: column;
+    }
+}
